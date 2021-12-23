@@ -1,0 +1,78 @@
+{
+  "name": "vue-authenticate-2",
+  "version": "2.0.0-rc2.0",
+  "description": "Authentication library for Vue.js",
+  "module": "dist/vue-authenticate.esm.min.js",
+  "browser": "dist/vue-authenticate.umd.min.js",
+  "main": "dist/vue-authenticate.esm.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src"
+  },
+  "keywords": [
+    "vue",
+    "vue.js",
+    "vuejs",
+    "json",
+    "jwt",
+    "token",
+    "auth",
+    "authentication",
+    "oauth",
+    "oauth1",
+    "oauth2"
+  ],
+  "author": {
+    "name": "Davor Grubelic",
+    "email": "davor.grubelic@gmail.com",
+    "url": "https://dgrubelic.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrien-talentview/vue-authenticate-2.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@rollup/plugin-buble": "^0.21.3",
+    "acorn": "^6.1.1",
+    "ajv": "^6.10.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "rollup": "^2.61.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-banner": "^0.2.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "uglify-js": "^3.9.1"
+  },
+  "peerDependencies": {
+    "axios": "^0.24.0",
+    "vue": "^3.2.4",
+    "vue-axios": "^3.4.0"
+  },
+  "tags": [
+    "auth",
+    "authentication",
+    "login",
+    "registration",
+    "jwt",
+    "token",
+    "vuejs",
+    "vue.js",
+    "github",
+    "facebook",
+    "google",
+    "twitter",
+    "oauth",
+    "oauth 1.0",
+    "oauth 2.0"
+  ]
+}
